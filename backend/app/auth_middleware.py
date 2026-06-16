@@ -1,6 +1,6 @@
 from fastapi import Depends, HTTPException
 from fastapi.security import OAuth2PasswordBearer
-from jwt_handler import verify_token
+from app.jwt_handler import verify_token
 
 # ✅ tokenUrl matches the new /token route
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
