@@ -1,16 +1,26 @@
+import sys
+import os
 from fastapi import FastAPI, Depends
 
-# ✅ FIXED: removed 'app.' prefix — we're already inside the app/ folder
+# Ensure the backend root is in Python's search path
+backend_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if backend_path not in sys.path:
+    sys.path.insert(0, backend_path)
+
+# App imports
 from routes import router
 from auth_middleware import get_current_user
+from sessions.routes import router as sessions_router
 
-app = FastAPI()
+app = FastAPI(title="Vidyuth Nethra API")
 
-app.include_router(router)  # ✅ registers /login before OAuth2 scheme reads tokenUrl
+# Register Routers
+app.include_router(router)
+app.include_router(sessions_router, prefix="/sessions", tags=["Sessions"])
 
 @app.get("/profile")
 def profile(user=Depends(get_current_user)):
     return {
         "message": "Access Granted",
         "user": user
-    }
+    }
