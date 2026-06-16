@@ -10,17 +10,33 @@ if backend_path not in sys.path:
 # App imports
 from routes import router
 from auth_middleware import get_current_user
+
+# Sessions module
 from sessions.routes import router as sessions_router
 
-app = FastAPI(title="Vidyuth Nethra API")
+# Energy module
+from energy.routes import router as energy_router
+
+app = FastAPI(
+    title="Vidyuth Nethra API"
+)
 
 # Register Routers
 app.include_router(router)
-app.include_router(sessions_router, prefix="/sessions", tags=["Sessions"])
+
+app.include_router(
+    energy_router
+)
+
+app.include_router(
+    sessions_router,
+    prefix="/sessions",
+    tags=["Sessions"]
+)
 
 @app.get("/profile")
 def profile(user=Depends(get_current_user)):
     return {
         "message": "Access Granted",
         "user": user
-    }
+    }
