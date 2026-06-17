@@ -1,6 +1,6 @@
 # ✅ FIXED: removed 'app.' prefix
-from password_utils import hash_password, verify_password
-from jwt_handler import create_access_token
+from app.password_utils import hash_password, verify_password
+from app.jwt_handler import create_access_token
 
 users = {}
 

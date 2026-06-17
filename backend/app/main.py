@@ -8,8 +8,8 @@ if backend_path not in sys.path:
     sys.path.insert(0, backend_path)
 
 # App imports
-from routes import router
-from auth_middleware import get_current_user
+from app.routes import router
+from app.auth_middleware import get_current_user
 
 # Sessions module
 from sessions.routes import router as sessions_router
