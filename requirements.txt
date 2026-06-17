@@ -3,3 +3,6 @@ uvicorn
 bcrypt
 pyjwt
 python-dotenv
+supabase
+email-validator
+python-multipart
