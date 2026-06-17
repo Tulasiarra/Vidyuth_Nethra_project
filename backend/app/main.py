@@ -40,3 +40,18 @@ def profile(user=Depends(get_current_user)):
         "message": "Access Granted",
         "user": user
     }
+
+from database import supabase
+
+@app.get("/db-test")
+def db_test():
+
+    data = (
+        supabase
+        .table("users")
+        .select("*")
+        .limit(5)
+        .execute()
+    )
+
+    return data.data

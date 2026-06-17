@@ -1,37 +1,75 @@
-import re
+import uuid
 from fastapi import HTTPException
+from database import supabase
 
-# Mock database simulating user access levels for specific homes
-MOCK_USER_HOMES = {
-    "test@example.com": ["home_123", "home_456"],
-    "admin@example.com": ["home_123", "home_456", "home_789"]
-}
-
-# Only allow letters, digits, underscores, and hyphens in home IDs
-_HOME_ID_PATTERN = re.compile(r'^[a-zA-Z0-9_\-]+$')
-
-def validate_home_access(user_id: str, home_id: str):
+def get_uuid_from_home_id(home_id: str) -> str:
     """
-    Validates the home ID format and checks if the user has access.
-    Rejects inputs containing special characters.
+    Resolves any home_id (like 'home_123' or a raw string) to a valid UUID string.
+    If it's already a valid UUID, returns it. Otherwise, derives a deterministic UUID.
     """
-    if not _HOME_ID_PATTERN.match(home_id):
-        raise HTTPException(
-            status_code=400,
-            detail="Invalid Home ID: special characters are not allowed. "
-                   "Only letters, digits, underscores, and hyphens are permitted."
-        )
+    try:
+        return str(uuid.UUID(home_id))
+    except ValueError:
+        clean_id = home_id
+        if home_id.startswith("home_"):
+            clean_id = home_id[5:]
+        try:
+            return str(uuid.UUID(clean_id))
+        except ValueError:
+            # Deterministic UUID mapping based on string name
+            return str(uuid.uuid5(uuid.NAMESPACE_DNS, home_id))
 
-    if not home_id.startswith("home_"):
-        raise HTTPException(
-            status_code=400,
-            detail="Invalid Home ID format. Must start with 'home_'"
-        )
+def validate_home_access(user_email: str, home_id: str) -> str:
+    """
+    Validates home access for the given user email and home_id.
+    Returns the resolved household_id (UUID string).
+    """
+    home_uuid = get_uuid_from_home_id(home_id)
 
-    # Permission check (mock database)
-    if user_id in MOCK_USER_HOMES:
-        if home_id not in MOCK_USER_HOMES[user_id]:
-            raise HTTPException(
-                status_code=403,
-                detail=f"Access Denied: User does not have access to home '{home_id}'"
-            )
+    try:
+        # Get user_id from email
+        user_res = supabase.table("users").select("user_id").eq("email", user_email).execute()
+        if not user_res.data:
+            raise HTTPException(status_code=404, detail="User not found")
+        
+        user_id = user_res.data[0]["user_id"]
+
+        # Check if the household exists in the database
+        house_res = supabase.table("households").select("*").eq("household_id", home_uuid).execute()
+        
+        if not house_res.data:
+            # Check if user has any households at all
+            all_house_res = supabase.table("households").select("*").eq("user_id", user_id).execute()
+            if not all_house_res.data:
+                # If this user has no households, automatically create a default one for them
+                clean_name = home_id.replace("_", " ").title() if "_" in home_id else f"{home_id.title()} Household"
+                supabase.table("households").insert({
+                    "household_id": home_uuid,
+                    "user_id": user_id,
+                    "household_name": clean_name,
+                    "location": "Default Location"
+                }).execute()
+            else:
+                # User owns other households, but not this one. Deny access.
+                raise HTTPException(
+                    status_code=403,
+                    detail=f"Access Denied: User does not have access to household '{home_id}'"
+                )
+        else:
+            # Household exists, verify user ownership
+            household = house_res.data[0]
+            if household["user_id"] != user_id:
+                raise HTTPException(
+                    status_code=403,
+                    detail=f"Access Denied: Household '{home_id}' belongs to another user"
+                )
+
+        return home_uuid
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Database error during validation: {str(e)}"
+        )

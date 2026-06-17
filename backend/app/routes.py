@@ -18,15 +18,26 @@ def register(data: RegisterSchema):
 def login(data: LoginSchema):
     return login_user(data)
 
-# ✅ ADD THIS — Swagger OAuth2 form hits this route
 @router.post("/token")
 def token(form_data: OAuth2PasswordRequestForm = Depends()):
-    from auth_schema import LoginSchema
-    # Map 'username' field → 'email' field
-    data = LoginSchema(email=form_data.username, password=form_data.password)
+
+    from app.auth_schema import LoginSchema
+
+    data = LoginSchema(
+        email=form_data.username,
+        password=form_data.password
+    )
+
     result = login_user(data)
+
     if not result.get("success"):
         from fastapi import HTTPException
-        raise HTTPException(status_code=401, detail=result["message"])
-    # ✅ Swagger requires exactly this format
-    return {"access_token": result["token"], "token_type": "bearer"}
+        raise HTTPException(
+            status_code=401,
+            detail=result["message"]
+        )
+
+    return {
+        "access_token": result["token"],
+        "token_type": "bearer"
+    }
