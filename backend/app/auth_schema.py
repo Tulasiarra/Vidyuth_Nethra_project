@@ -1,11 +1,27 @@
-from pydantic import BaseModel,EmailStr, Field
+from pydantic import BaseModel
 
 class RegisterSchema(BaseModel):
     name: str
-    email: EmailStr
-    password: str = Field(min_length=6)
+    email: str
+    password: str
 
 
 class LoginSchema(BaseModel):
-    email: EmailStr
+    email: str
     password: str
+
+class VerifyOtpSchema(BaseModel):
+    email: str
+    otp: str
+
+class ForgotPasswordSchema(BaseModel):
+    email: str
+
+class ResetPasswordSchema(BaseModel):
+    email: str
+    otp: str
+    new_password: str
+
+class ResetPasswordDirectSchema(BaseModel):
+    new_password: str
+
