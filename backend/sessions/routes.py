@@ -12,8 +12,8 @@ def api_select_home(
     current_user: dict = Depends(get_current_user)
 ):
     user_email = current_user["email"]
-    home_uuid = validate_home_access(user_email, data.home_id)
-    return select_home(user_email, home_uuid)
+    validate_home_access(user_email, data.home_id)
+    return select_home(user_email, data.home_id)
 
 @router.post("/switch")
 def api_switch_home(
@@ -21,8 +21,8 @@ def api_switch_home(
     current_user: dict = Depends(get_current_user)
 ):
     user_email = current_user["email"]
-    home_uuid = validate_home_access(user_email, data.new_home_id)
-    return switch_home(user_email, home_uuid)
+    validate_home_access(user_email, data.new_home_id)
+    return switch_home(user_email, data.new_home_id)
 
 @router.get("/status", response_model=SessionStatusResponse)
 def api_get_status(

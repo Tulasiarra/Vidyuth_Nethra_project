@@ -7,8 +7,6 @@ from energy.service import (
 )
 from energy.prediction import predict_usage
 from energy.recommendation import generate_recommendations
-from sessions.validators import validate_home_access
-from sessions.lifecycle import get_active_session
 
 router = APIRouter(
     prefix="/energy",
@@ -17,27 +15,25 @@ router = APIRouter(
 
 @router.get("/data")
 def energy_data(home_id: str, current_user: dict = Depends(get_current_user)):
-    home_uuid = validate_home_access(current_user["email"], home_id)
-    return get_energy_data(home_uuid)
+    return get_energy_data(home_id)
 
 @router.get("/summary")
 def energy_summary(home_id: str, current_user: dict = Depends(get_current_user)):
-    home_uuid = validate_home_access(current_user["email"], home_id)
-    return get_energy_summary(home_uuid)
+    return get_energy_summary(home_id)
 
 @router.get("/hourly")
 def hourly_usage(home_id: str, current_user: dict = Depends(get_current_user)):
-    home_uuid = validate_home_access(current_user["email"], home_id)
-    return get_hourly_usage(home_uuid)
+    return get_hourly_usage(home_id)
 
 @router.get("/prediction")
 def energy_prediction(home_id: str, current_user: dict = Depends(get_current_user)):
-    home_uuid = validate_home_access(current_user["email"], home_id)
-    return predict_usage(home_uuid)
+    return predict_usage(home_id)
 
 @router.get("/recommendations")
-def recommendations(current_user: dict = Depends(get_current_user)):
-    # Get user's active home session to generate recommendations for
-    session = get_active_session(current_user["email"])
-    home_uuid = session["home_id"] if session else None
-    return generate_recommendations(home_uuid)
+def recommendations(home_id: str, current_user: dict = Depends(get_current_user)):
+    return generate_recommendations(home_id)
+
+@router.post("/train")
+def train_model(home_id: str, current_user: dict = Depends(get_current_user)):
+    from ml.train import train_home_lstm
+    return train_home_lstm(home_id)

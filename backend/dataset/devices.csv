@@ -1,0 +1,1004 @@
+device_id,home_id,device_type,brand,model,rated_watts,room_name
+1,1,Fridge,Godrej,M316,387,Utility
+2,1,Vacuum Cleaner,Panasonic,M830,919,Bathroom
+3,1,Router,Philips,M548,24,Bathroom
+4,1,Dishwasher,Samsung,M353,1430,Living Room
+5,1,TV,Philips,M121,230,Utility
+6,1,Washing Machine,Panasonic,M702,625,Living Room
+7,1,Water Purifier,Samsung,M824,60,Living Room
+8,2,BLDC Fan,Panasonic,M652,29,Utility
+9,2,Fan,IFB,M348,85,Bathroom
+10,2,Microwave,Godrej,M294,896,Living Room
+11,2,Water Pump,Godrej,M462,733,Bathroom
+12,2,Water Purifier,IFB,M984,23,Living Room
+13,2,LED Light,LG,M512,16,Kitchen
+14,2,Washing Machine,Samsung,M354,596,Bedroom
+15,2,Router,Bosch,M559,12,Bathroom
+16,3,Washing Machine,LG,M767,953,Living Room
+17,3,Monitor,Samsung,M871,74,Bedroom
+18,3,LED Light,Whirlpool,M516,12,Bathroom
+19,3,BLDC Fan,Panasonic,M985,37,Living Room
+20,3,Iron Box,Whirlpool,M488,752,Bathroom
+21,3,Dishwasher,Havells,M902,1665,Kitchen
+22,3,Cooler,Godrej,M813,262,Bathroom
+23,4,Light,Philips,M158,23,Utility
+24,4,Geyser,IFB,M614,2587,Bedroom
+25,4,Water Pump,LG,M620,382,Bedroom
+26,4,Fan,Samsung,M709,39,Bedroom
+27,4,Mixer,Godrej,M222,782,Utility
+28,4,Dishwasher,Panasonic,M692,1808,Living Room
+29,4,Air Purifier,Samsung,M529,72,Utility
+30,5,Water Purifier,Samsung,M109,49,Utility
+31,5,Microwave,Samsung,M175,1350,Bedroom
+32,5,Washing Machine,Bosch,M371,535,Kitchen
+33,5,Light,Samsung,M350,43,Kitchen
+34,5,Iron Box,Whirlpool,M548,1306,Kitchen
+35,5,LED Light,Bosch,M108,15,Utility
+36,5,Vacuum Cleaner,Havells,M779,706,Bedroom
+37,5,Computer,Havells,M218,204,Utility
+38,5,Fridge,Whirlpool,M378,222,Utility
+39,5,Induction Stove,Panasonic,M834,1551,Bedroom
+40,5,Monitor,Havells,M617,51,Kitchen
+41,5,Router,LG,M194,21,Kitchen
+42,5,Mixer,LG,M103,470,Bedroom
+43,5,TV,Havells,M265,193,Utility
+44,6,Dishwasher,LG,M415,1573,Living Room
+45,6,AC,Philips,M315,1711,Living Room
+46,6,Cooler,Philips,M898,263,Bathroom
+47,6,BLDC Fan,Whirlpool,M342,30,Bedroom
+48,6,Fridge,Godrej,M125,195,Kitchen
+49,6,Water Pump,Godrej,M921,985,Bedroom
+50,6,Fan,Havells,M263,85,Living Room
+51,6,Oven,Godrej,M993,1079,Bathroom
+52,6,Induction Stove,Panasonic,M304,2036,Bathroom
+53,6,Light,Philips,M412,34,Bedroom
+54,6,Air Purifier,LG,M775,42,Bathroom
+55,7,Washing Machine,Havells,M282,994,Kitchen
+56,7,BLDC Fan,LG,M211,44,Bathroom
+57,7,Water Pump,Philips,M846,1105,Kitchen
+58,7,Oven,Godrej,M720,2047,Living Room
+59,7,Water Purifier,Godrej,M690,32,Kitchen
+60,7,Computer,LG,M825,373,Living Room
+61,7,Dishwasher,Bosch,M925,1751,Bedroom
+62,7,Microwave,Philips,M541,871,Kitchen
+63,7,AC,Philips,M779,1455,Kitchen
+64,7,Fan,Bosch,M416,77,Bathroom
+65,8,Computer,Havells,M515,430,Living Room
+66,8,Iron Box,Havells,M393,965,Bathroom
+67,8,Geyser,Philips,M576,2404,Bathroom
+68,8,Dishwasher,Panasonic,M623,1684,Bedroom
+69,8,Fridge,Samsung,M390,281,Utility
+70,8,Light,Philips,M195,35,Kitchen
+71,8,Laptop,Panasonic,M925,95,Bedroom
+72,8,Water Pump,LG,M147,550,Bathroom
+73,8,TV,Samsung,M566,186,Utility
+74,8,Vacuum Cleaner,Panasonic,M835,1313,Bathroom
+75,9,Computer,IFB,M151,435,Bedroom
+76,9,LED Light,Samsung,M567,7,Bathroom
+77,9,Fridge,Bosch,M672,302,Kitchen
+78,9,Air Purifier,IFB,M727,82,Utility
+79,9,AC,Godrej,M950,2322,Bathroom
+80,9,Cooler,Whirlpool,M861,241,Bathroom
+81,9,Laptop,Havells,M869,108,Kitchen
+82,9,Iron Box,Bosch,M596,1391,Bedroom
+83,9,TV,Havells,M550,99,Kitchen
+84,9,Water Pump,Panasonic,M378,643,Kitchen
+85,9,Oven,Bosch,M182,1283,Bedroom
+86,9,Washing Machine,Panasonic,M492,1110,Bedroom
+87,10,BLDC Fan,Panasonic,M952,38,Bathroom
+88,10,Laptop,LG,M977,142,Bathroom
+89,10,Iron Box,LG,M460,1055,Bathroom
+90,10,Microwave,Godrej,M651,1359,Utility
+91,10,Dishwasher,Panasonic,M599,1424,Kitchen
+92,10,Monitor,Godrej,M597,21,Bathroom
+93,10,Vacuum Cleaner,Philips,M784,1295,Bathroom
+94,10,Fan,Whirlpool,M960,64,Bedroom
+95,11,Dishwasher,Godrej,M435,1416,Bathroom
+96,11,AC,Philips,M445,1976,Kitchen
+97,11,Computer,Godrej,M358,191,Bathroom
+98,11,Mixer,LG,M867,576,Living Room
+99,11,Air Purifier,Philips,M329,71,Living Room
+100,11,Iron Box,LG,M872,781,Bedroom
+101,11,BLDC Fan,Panasonic,M959,25,Utility
+102,11,Laptop,Whirlpool,M344,77,Bathroom
+103,11,Fridge,Samsung,M677,392,Bedroom
+104,11,Water Purifier,IFB,M816,36,Kitchen
+105,11,LED Light,Whirlpool,M720,14,Living Room
+106,11,Water Pump,Whirlpool,M418,410,Utility
+107,11,Induction Stove,LG,M419,1789,Bathroom
+108,11,Router,Godrej,M832,14,Living Room
+109,12,Iron Box,Philips,M112,1180,Bathroom
+110,12,Air Purifier,Samsung,M543,53,Bathroom
+111,12,LED Light,Whirlpool,M545,7,Utility
+112,12,Cooler,Havells,M730,257,Bathroom
+113,12,Geyser,IFB,M546,2997,Utility
+114,12,Water Pump,Havells,M430,1172,Bedroom
+115,12,Fan,Samsung,M385,63,Bedroom
+116,12,Oven,IFB,M683,2249,Bathroom
+117,12,Laptop,Philips,M129,171,Kitchen
+118,12,Microwave,Whirlpool,M599,1017,Kitchen
+119,12,TV,Havells,M448,151,Utility
+120,12,Dishwasher,Havells,M669,1210,Utility
+121,12,Washing Machine,Panasonic,M187,647,Bathroom
+122,12,Monitor,IFB,M668,68,Bedroom
+123,13,Air Purifier,Philips,M584,65,Utility
+124,13,Iron Box,Philips,M535,1313,Kitchen
+125,13,Router,Philips,M819,22,Kitchen
+126,13,Monitor,Havells,M357,34,Living Room
+127,13,AC,Panasonic,M423,1444,Utility
+128,13,BLDC Fan,Whirlpool,M296,31,Bathroom
+129,13,Geyser,Havells,M841,2707,Utility
+130,13,LED Light,Havells,M202,18,Bedroom
+131,13,Computer,Havells,M332,334,Bedroom
+132,13,Oven,Havells,M114,2450,Utility
+133,13,Cooler,Whirlpool,M380,131,Living Room
+134,13,Fridge,Bosch,M399,328,Bedroom
+135,14,Router,Godrej,M603,10,Utility
+136,14,Cooler,LG,M255,158,Utility
+137,14,AC,Havells,M187,1708,Living Room
+138,14,Mixer,Bosch,M882,513,Utility
+139,14,Geyser,Panasonic,M894,2570,Bathroom
+140,14,Water Pump,IFB,M553,604,Utility
+141,14,Air Purifier,Godrej,M412,66,Utility
+142,14,Monitor,LG,M724,67,Living Room
+143,14,Microwave,Panasonic,M740,1016,Kitchen
+144,14,BLDC Fan,Samsung,M260,32,Bedroom
+145,14,Vacuum Cleaner,Bosch,M176,760,Living Room
+146,14,Fridge,Godrej,M561,326,Utility
+147,14,LED Light,IFB,M398,5,Bedroom
+148,14,Fan,Havells,M823,53,Bathroom
+149,14,Dishwasher,Samsung,M803,1439,Kitchen
+150,15,Mixer,Havells,M549,363,Bathroom
+151,15,Vacuum Cleaner,Havells,M816,1012,Kitchen
+152,15,Light,Bosch,M652,51,Bathroom
+153,15,Laptop,Samsung,M712,55,Bathroom
+154,15,Cooler,Philips,M718,184,Living Room
+155,15,Dishwasher,Samsung,M334,1890,Utility
+156,15,LED Light,LG,M883,15,Kitchen
+157,15,Fridge,LG,M881,343,Bedroom
+158,15,Washing Machine,IFB,M631,1067,Bathroom
+159,15,Air Purifier,Havells,M285,67,Bathroom
+160,15,BLDC Fan,IFB,M193,40,Kitchen
+161,15,Fan,Godrej,M441,55,Living Room
+162,15,AC,Whirlpool,M437,2043,Bathroom
+163,15,Monitor,Havells,M778,80,Bathroom
+164,15,Water Purifier,Bosch,M137,49,Living Room
+165,16,Washing Machine,Panasonic,M630,770,Utility
+166,16,Microwave,IFB,M740,1252,Living Room
+167,16,Cooler,Panasonic,M373,260,Bedroom
+168,16,Computer,Havells,M548,398,Living Room
+169,16,Water Purifier,LG,M745,58,Bedroom
+170,16,AC,Whirlpool,M418,2328,Living Room
+171,16,Dishwasher,Bosch,M517,1295,Bedroom
+172,16,Monitor,Samsung,M572,80,Living Room
+173,16,Laptop,Whirlpool,M610,119,Utility
+174,16,Mixer,Havells,M525,727,Bathroom
+175,17,LED Light,Godrej,M448,17,Utility
+176,17,Monitor,Havells,M940,20,Kitchen
+177,17,Dishwasher,Havells,M957,1801,Utility
+178,17,Fridge,IFB,M986,188,Bathroom
+179,17,Computer,Bosch,M595,326,Kitchen
+180,17,Light,Bosch,M881,54,Bathroom
+181,17,Water Purifier,IFB,M429,32,Bedroom
+182,17,Air Purifier,Godrej,M339,84,Bathroom
+183,17,BLDC Fan,LG,M425,40,Bathroom
+184,17,Vacuum Cleaner,Godrej,M779,1267,Bedroom
+185,17,Induction Stove,IFB,M137,1329,Utility
+186,17,Laptop,Philips,M990,70,Bathroom
+187,18,Water Purifier,Samsung,M580,36,Kitchen
+188,18,Monitor,Godrej,M765,25,Kitchen
+189,18,AC,Bosch,M489,1848,Bathroom
+190,18,Fridge,Bosch,M136,308,Living Room
+191,18,Laptop,Panasonic,M746,118,Bedroom
+192,18,Air Purifier,Samsung,M544,36,Living Room
+193,19,TV,Panasonic,M643,185,Utility
+194,19,Iron Box,Whirlpool,M274,929,Living Room
+195,19,Geyser,Godrej,M734,2899,Bedroom
+196,19,AC,IFB,M697,1493,Bedroom
+197,19,Fan,IFB,M753,51,Bathroom
+198,19,Microwave,Havells,M782,809,Bathroom
+199,19,Induction Stove,Havells,M793,1759,Bedroom
+200,19,Vacuum Cleaner,Samsung,M552,953,Utility
+201,19,Oven,Havells,M754,1868,Kitchen
+202,19,Water Pump,IFB,M965,609,Bedroom
+203,19,Light,Godrej,M973,50,Living Room
+204,19,BLDC Fan,Panasonic,M490,43,Kitchen
+205,20,Geyser,Philips,M324,2803,Bedroom
+206,20,Iron Box,Havells,M794,1488,Bedroom
+207,20,Water Pump,Samsung,M742,961,Living Room
+208,20,AC,Havells,M907,2102,Living Room
+209,20,Computer,Philips,M849,217,Living Room
+210,20,Washing Machine,Havells,M434,1165,Bathroom
+211,20,Air Purifier,Whirlpool,M305,38,Utility
+212,20,Fan,Philips,M643,67,Kitchen
+213,20,Router,Whirlpool,M363,23,Kitchen
+214,20,Laptop,Philips,M923,74,Bathroom
+215,20,Fridge,Samsung,M244,343,Bedroom
+216,20,Induction Stove,Godrej,M966,2023,Utility
+217,20,Cooler,Philips,M192,221,Living Room
+218,20,Vacuum Cleaner,Havells,M649,726,Bathroom
+219,21,Vacuum Cleaner,Bosch,M435,1224,Bedroom
+220,21,Water Pump,Samsung,M750,1143,Bathroom
+221,21,Washing Machine,Havells,M764,818,Living Room
+222,21,Mixer,Whirlpool,M146,784,Living Room
+223,21,Computer,Havells,M604,209,Living Room
+224,21,Oven,Panasonic,M650,1277,Bathroom
+225,21,Cooler,IFB,M479,291,Utility
+226,21,LED Light,Godrej,M701,16,Bedroom
+227,21,Router,Godrej,M770,11,Bathroom
+228,21,AC,Godrej,M386,1267,Kitchen
+229,22,Monitor,LG,M507,37,Bedroom
+230,22,Water Pump,Samsung,M968,1143,Bathroom
+231,22,LED Light,Samsung,M778,8,Utility
+232,22,Oven,LG,M151,1683,Bedroom
+233,22,Cooler,Whirlpool,M905,264,Bedroom
+234,22,Air Purifier,Samsung,M949,78,Utility
+235,22,Dishwasher,Panasonic,M700,1421,Bedroom
+236,22,Mixer,Philips,M892,375,Utility
+237,23,Washing Machine,LG,M234,415,Kitchen
+238,23,Fridge,Panasonic,M702,232,Living Room
+239,23,Dishwasher,Whirlpool,M371,1253,Bedroom
+240,23,TV,Godrej,M638,109,Living Room
+241,23,Cooler,IFB,M559,212,Utility
+242,24,Cooler,Godrej,M802,147,Bathroom
+243,24,Monitor,IFB,M175,77,Living Room
+244,24,Water Purifier,Philips,M722,29,Living Room
+245,24,LED Light,Whirlpool,M381,14,Utility
+246,24,Induction Stove,Bosch,M829,1532,Bathroom
+247,24,Fan,Bosch,M401,64,Utility
+248,24,Vacuum Cleaner,Godrej,M201,1318,Living Room
+249,24,Geyser,Bosch,M838,1940,Bathroom
+250,24,Iron Box,IFB,M333,1173,Kitchen
+251,24,Microwave,IFB,M508,1225,Living Room
+252,24,AC,Philips,M537,1840,Kitchen
+253,24,Laptop,Philips,M256,166,Living Room
+254,24,Air Purifier,Samsung,M951,35,Living Room
+255,24,Light,Godrej,M198,43,Bedroom
+256,25,Fan,Havells,M460,41,Utility
+257,25,Mixer,Bosch,M317,379,Bathroom
+258,25,Dishwasher,Panasonic,M967,1310,Kitchen
+259,25,Vacuum Cleaner,Bosch,M476,717,Kitchen
+260,25,Microwave,Panasonic,M926,1239,Utility
+261,25,Cooler,Bosch,M126,275,Kitchen
+262,25,Laptop,LG,M284,114,Kitchen
+263,25,Oven,Philips,M459,1012,Bedroom
+264,25,Air Purifier,Whirlpool,M679,72,Bathroom
+265,25,Router,Samsung,M245,8,Living Room
+266,25,Water Purifier,Bosch,M320,44,Bathroom
+267,25,AC,IFB,M449,1522,Kitchen
+268,25,Fridge,Havells,M838,233,Utility
+269,26,BLDC Fan,Godrej,M379,31,Utility
+270,26,Fan,Samsung,M453,62,Living Room
+271,26,Fridge,Havells,M794,323,Utility
+272,26,TV,IFB,M639,250,Kitchen
+273,26,Induction Stove,LG,M325,1604,Utility
+274,26,Iron Box,LG,M107,959,Kitchen
+275,26,Water Pump,Panasonic,M885,440,Kitchen
+276,26,Washing Machine,Havells,M435,522,Living Room
+277,26,Monitor,IFB,M864,47,Bedroom
+278,26,Microwave,Whirlpool,M489,1345,Bedroom
+279,26,Light,Bosch,M672,42,Living Room
+280,26,LED Light,Godrej,M982,16,Living Room
+281,26,Geyser,Godrej,M119,2441,Living Room
+282,26,Computer,Philips,M689,369,Utility
+283,27,Iron Box,IFB,M951,1456,Kitchen
+284,27,Air Purifier,Samsung,M547,84,Living Room
+285,27,Laptop,Panasonic,M546,147,Utility
+286,27,Geyser,Samsung,M505,2135,Kitchen
+287,27,Cooler,Panasonic,M441,163,Living Room
+288,27,Computer,Bosch,M748,208,Utility
+289,27,AC,Bosch,M298,1915,Kitchen
+290,27,Microwave,Whirlpool,M341,905,Bedroom
+291,27,TV,Havells,M302,124,Utility
+292,27,Mixer,Whirlpool,M878,688,Living Room
+293,27,Water Pump,Whirlpool,M891,943,Bathroom
+294,28,Mixer,Havells,M915,440,Utility
+295,28,Water Pump,LG,M460,819,Living Room
+296,28,Monitor,Havells,M572,48,Living Room
+297,28,Iron Box,LG,M477,1043,Living Room
+298,28,Induction Stove,Samsung,M729,1808,Utility
+299,28,Microwave,Godrej,M573,1394,Utility
+300,28,Air Purifier,LG,M560,88,Utility
+301,28,Fridge,Panasonic,M429,304,Bathroom
+302,28,Vacuum Cleaner,Bosch,M254,663,Bathroom
+303,28,Fan,Samsung,M930,88,Kitchen
+304,28,LED Light,Samsung,M616,15,Bedroom
+305,28,Laptop,LG,M353,157,Bathroom
+306,29,Water Purifier,Philips,M167,41,Living Room
+307,29,Induction Stove,Bosch,M794,1595,Kitchen
+308,29,TV,Havells,M841,248,Utility
+309,29,Oven,Whirlpool,M441,1166,Utility
+310,29,Air Purifier,Whirlpool,M458,49,Bathroom
+311,29,Geyser,Whirlpool,M709,2951,Living Room
+312,29,Computer,Havells,M672,342,Kitchen
+313,29,Laptop,Whirlpool,M786,179,Living Room
+314,29,Microwave,Godrej,M620,1170,Living Room
+315,29,Router,Philips,M416,13,Bedroom
+316,29,Mixer,Philips,M884,548,Bedroom
+317,29,AC,Panasonic,M240,1517,Living Room
+318,29,Monitor,Havells,M964,70,Living Room
+319,30,Dishwasher,Whirlpool,M838,1648,Living Room
+320,30,Water Purifier,Godrej,M473,35,Bathroom
+321,30,Fan,Havells,M870,82,Bathroom
+322,30,Microwave,Panasonic,M646,1044,Kitchen
+323,30,Induction Stove,IFB,M955,1398,Kitchen
+324,30,Fridge,IFB,M572,346,Kitchen
+325,30,Computer,Godrej,M614,420,Bathroom
+326,30,Mixer,Whirlpool,M936,402,Utility
+327,30,TV,Whirlpool,M993,144,Living Room
+328,30,BLDC Fan,IFB,M995,36,Utility
+329,30,Laptop,Samsung,M828,177,Living Room
+330,30,Oven,Havells,M185,1328,Kitchen
+331,30,Geyser,IFB,M625,1801,Bathroom
+332,31,LED Light,Godrej,M614,10,Bedroom
+333,31,Monitor,Godrej,M183,43,Bedroom
+334,31,Oven,LG,M426,1202,Kitchen
+335,31,AC,Whirlpool,M240,1278,Kitchen
+336,31,Laptop,IFB,M812,80,Bathroom
+337,31,Fan,IFB,M730,35,Living Room
+338,32,Washing Machine,Bosch,M533,513,Kitchen
+339,32,Light,Panasonic,M408,27,Living Room
+340,32,Fridge,Panasonic,M529,313,Utility
+341,32,Dishwasher,IFB,M164,1313,Bathroom
+342,32,Water Pump,Bosch,M116,947,Utility
+343,33,LED Light,Philips,M169,13,Utility
+344,33,Iron Box,Bosch,M905,1269,Utility
+345,33,Fridge,LG,M499,373,Bathroom
+346,33,Geyser,LG,M750,2292,Kitchen
+347,33,Laptop,Havells,M865,49,Kitchen
+348,33,AC,Samsung,M453,1693,Living Room
+349,33,Oven,Philips,M236,1090,Kitchen
+350,33,Water Pump,Bosch,M446,1133,Bedroom
+351,33,Induction Stove,IFB,M812,1690,Bedroom
+352,33,BLDC Fan,Whirlpool,M164,39,Living Room
+353,33,Microwave,Havells,M306,844,Bedroom
+354,33,Router,LG,M423,17,Utility
+355,33,Fan,Godrej,M934,69,Bathroom
+356,33,Washing Machine,Havells,M137,1171,Bedroom
+357,34,Oven,IFB,M495,1694,Bedroom
+358,34,Fan,IFB,M808,66,Kitchen
+359,34,Air Purifier,Bosch,M373,81,Living Room
+360,34,Microwave,Godrej,M180,1240,Utility
+361,34,Washing Machine,Whirlpool,M658,700,Kitchen
+362,34,Cooler,Samsung,M181,203,Kitchen
+363,34,Water Pump,Havells,M556,917,Bathroom
+364,34,Laptop,Whirlpool,M806,158,Kitchen
+365,34,Computer,IFB,M143,330,Utility
+366,35,Washing Machine,IFB,M135,529,Living Room
+367,35,Air Purifier,Panasonic,M897,71,Kitchen
+368,35,Fan,Philips,M492,71,Living Room
+369,35,BLDC Fan,Whirlpool,M795,39,Kitchen
+370,35,Computer,Philips,M554,189,Utility
+371,35,Oven,Whirlpool,M642,1751,Bathroom
+372,35,Water Purifier,Philips,M765,37,Bedroom
+373,35,TV,Samsung,M126,127,Bathroom
+374,35,AC,Bosch,M496,2350,Living Room
+375,35,Iron Box,Havells,M893,1016,Bathroom
+376,35,Laptop,Panasonic,M726,118,Bathroom
+377,36,Cooler,Philips,M826,136,Utility
+378,36,Fridge,Bosch,M397,378,Kitchen
+379,36,BLDC Fan,Whirlpool,M828,45,Bedroom
+380,36,Monitor,Philips,M620,34,Living Room
+381,36,TV,Panasonic,M911,115,Bedroom
+382,36,Air Purifier,IFB,M126,53,Utility
+383,36,Vacuum Cleaner,Philips,M578,1164,Bedroom
+384,36,Microwave,Samsung,M167,1116,Bathroom
+385,37,Water Purifier,Philips,M231,55,Utility
+386,37,Laptop,Whirlpool,M886,78,Bathroom
+387,37,Iron Box,Bosch,M989,806,Living Room
+388,37,Mixer,Bosch,M256,455,Bedroom
+389,37,BLDC Fan,Whirlpool,M430,32,Kitchen
+390,37,Fridge,Bosch,M390,366,Living Room
+391,37,Microwave,Havells,M301,1450,Utility
+392,37,Induction Stove,Havells,M228,1840,Kitchen
+393,37,Monitor,Bosch,M195,52,Bedroom
+394,37,LED Light,Whirlpool,M275,15,Utility
+395,37,Dishwasher,Philips,M962,1777,Living Room
+396,37,Washing Machine,LG,M183,446,Utility
+397,38,Air Purifier,IFB,M350,81,Bathroom
+398,38,Light,Havells,M564,24,Living Room
+399,38,Mixer,Whirlpool,M550,512,Bathroom
+400,38,Laptop,IFB,M308,132,Utility
+401,38,Induction Stove,Whirlpool,M420,2082,Kitchen
+402,38,AC,Philips,M508,1467,Kitchen
+403,38,Router,Bosch,M675,11,Kitchen
+404,38,Geyser,Panasonic,M577,1750,Kitchen
+405,38,Water Purifier,IFB,M353,29,Living Room
+406,39,Geyser,Whirlpool,M933,2170,Utility
+407,39,Computer,Philips,M294,231,Bathroom
+408,39,Induction Stove,Bosch,M578,1710,Kitchen
+409,39,Laptop,IFB,M123,68,Bathroom
+410,39,LED Light,Bosch,M568,8,Bedroom
+411,40,Oven,Godrej,M474,1092,Bathroom
+412,40,Fan,LG,M683,70,Bedroom
+413,40,Iron Box,Philips,M666,1045,Living Room
+414,40,Geyser,Godrej,M616,2422,Utility
+415,40,Router,Havells,M945,11,Bedroom
+416,40,Induction Stove,Samsung,M503,1582,Kitchen
+417,40,Air Purifier,Bosch,M474,78,Bedroom
+418,40,AC,Panasonic,M716,2242,Bathroom
+419,40,Cooler,Bosch,M141,131,Living Room
+420,40,Light,Whirlpool,M830,41,Bathroom
+421,40,BLDC Fan,Bosch,M567,29,Utility
+422,40,Fridge,Bosch,M243,233,Utility
+423,40,Water Pump,Philips,M266,702,Utility
+424,40,TV,Havells,M707,166,Utility
+425,41,Dishwasher,LG,M711,1685,Kitchen
+426,41,Router,Panasonic,M838,9,Utility
+427,41,Mixer,IFB,M274,568,Utility
+428,41,Geyser,Godrej,M251,2894,Bedroom
+429,41,Iron Box,LG,M686,1467,Living Room
+430,41,AC,Panasonic,M119,2103,Kitchen
+431,41,Oven,Godrej,M255,1845,Bedroom
+432,41,Microwave,Godrej,M613,1426,Bathroom
+433,41,Cooler,LG,M822,155,Utility
+434,41,Light,Panasonic,M674,40,Bathroom
+435,41,Air Purifier,Bosch,M485,50,Bedroom
+436,41,Fridge,IFB,M645,237,Utility
+437,41,Water Pump,Philips,M792,1090,Kitchen
+438,42,Router,Philips,M591,19,Utility
+439,42,Light,Havells,M394,27,Utility
+440,42,LED Light,Bosch,M488,11,Kitchen
+441,42,Washing Machine,Whirlpool,M397,443,Kitchen
+442,42,Dishwasher,Samsung,M454,1652,Kitchen
+443,42,Geyser,IFB,M319,1913,Utility
+444,42,Vacuum Cleaner,Havells,M675,1312,Kitchen
+445,42,Mixer,Whirlpool,M211,615,Utility
+446,42,Water Purifier,Panasonic,M348,23,Utility
+447,42,Oven,Panasonic,M753,1476,Living Room
+448,42,Cooler,Samsung,M523,204,Bathroom
+449,42,Monitor,Samsung,M797,69,Bedroom
+450,42,Computer,LG,M663,230,Bathroom
+451,42,Induction Stove,IFB,M588,1866,Bedroom
+452,43,Microwave,Godrej,M957,980,Living Room
+453,43,Geyser,Godrej,M906,2514,Bedroom
+454,43,Air Purifier,Havells,M997,32,Living Room
+455,43,Fan,Havells,M681,73,Living Room
+456,43,BLDC Fan,Philips,M391,39,Utility
+457,43,Mixer,Bosch,M605,755,Bedroom
+458,43,LED Light,Bosch,M579,9,Bedroom
+459,43,Vacuum Cleaner,Samsung,M438,766,Bathroom
+460,43,TV,Havells,M835,127,Living Room
+461,44,Geyser,Godrej,M785,1695,Bedroom
+462,44,Mixer,Whirlpool,M588,465,Bedroom
+463,44,Vacuum Cleaner,LG,M367,992,Bedroom
+464,44,Light,IFB,M871,37,Kitchen
+465,44,TV,Havells,M696,226,Living Room
+466,44,Computer,Havells,M769,334,Bedroom
+467,44,Laptop,LG,M783,75,Bathroom
+468,44,Water Purifier,Havells,M263,45,Utility
+469,44,Microwave,Havells,M806,920,Kitchen
+470,44,Fan,Philips,M729,49,Bedroom
+471,45,Router,IFB,M875,25,Bedroom
+472,45,Fridge,Panasonic,M796,343,Utility
+473,45,Monitor,Samsung,M638,48,Utility
+474,45,Induction Stove,Philips,M179,2139,Utility
+475,45,Oven,Samsung,M163,2121,Utility
+476,45,Laptop,Panasonic,M686,83,Bedroom
+477,45,Dishwasher,Philips,M974,1732,Bathroom
+478,46,Vacuum Cleaner,IFB,M928,656,Bathroom
+479,46,Light,Whirlpool,M625,46,Bathroom
+480,46,Mixer,LG,M672,536,Kitchen
+481,46,Router,LG,M505,16,Living Room
+482,46,BLDC Fan,Panasonic,M692,27,Living Room
+483,46,Water Purifier,Godrej,M452,24,Utility
+484,47,BLDC Fan,Whirlpool,M887,29,Bathroom
+485,47,Router,Philips,M491,22,Bathroom
+486,47,Fan,Godrej,M182,78,Utility
+487,47,Geyser,Whirlpool,M769,2212,Living Room
+488,47,Laptop,Whirlpool,M650,145,Utility
+489,48,Water Pump,Godrej,M644,688,Bedroom
+490,48,LED Light,Panasonic,M571,10,Bedroom
+491,48,AC,Havells,M293,1431,Living Room
+492,48,Vacuum Cleaner,Godrej,M729,1384,Living Room
+493,48,Geyser,Panasonic,M311,1637,Living Room
+494,48,Monitor,LG,M557,58,Living Room
+495,48,Dishwasher,Panasonic,M858,1245,Bathroom
+496,49,LED Light,Philips,M342,9,Bedroom
+497,49,Dishwasher,Bosch,M326,1623,Kitchen
+498,49,Light,Havells,M162,55,Utility
+499,49,Fan,Whirlpool,M741,78,Bathroom
+500,49,Fridge,Bosch,M607,162,Kitchen
+501,49,Water Purifier,Godrej,M904,53,Kitchen
+502,49,Geyser,Godrej,M518,1805,Kitchen
+503,49,Water Pump,Godrej,M288,1072,Utility
+504,49,Microwave,IFB,M346,1030,Kitchen
+505,49,Iron Box,Whirlpool,M925,1224,Living Room
+506,49,Monitor,Bosch,M522,46,Utility
+507,49,Computer,Bosch,M237,348,Bedroom
+508,50,Light,Havells,M486,58,Utility
+509,50,Microwave,LG,M994,874,Bedroom
+510,50,Air Purifier,Bosch,M322,60,Bedroom
+511,50,BLDC Fan,Philips,M410,25,Bedroom
+512,50,Monitor,Panasonic,M859,27,Bathroom
+513,50,Oven,Panasonic,M812,2237,Bedroom
+514,50,Vacuum Cleaner,Godrej,M345,1165,Kitchen
+515,50,Water Pump,Havells,M489,777,Utility
+516,50,Fan,Philips,M415,51,Kitchen
+517,51,Router,Whirlpool,M116,16,Utility
+518,51,Monitor,Godrej,M402,29,Bedroom
+519,51,Cooler,Philips,M335,217,Utility
+520,51,Water Pump,Panasonic,M611,863,Kitchen
+521,51,Microwave,Havells,M881,1300,Bathroom
+522,51,Light,IFB,M272,42,Bedroom
+523,51,Oven,Whirlpool,M837,2119,Bathroom
+524,51,Induction Stove,Whirlpool,M655,1857,Living Room
+525,51,Laptop,Bosch,M134,64,Living Room
+526,51,AC,LG,M522,1481,Bedroom
+527,51,Geyser,Samsung,M824,1809,Living Room
+528,51,Vacuum Cleaner,Panasonic,M617,1066,Kitchen
+529,51,Dishwasher,LG,M732,1853,Utility
+530,52,Vacuum Cleaner,Bosch,M393,617,Utility
+531,52,Router,Godrej,M925,13,Living Room
+532,52,AC,Samsung,M636,1504,Bedroom
+533,52,Water Pump,Panasonic,M734,839,Kitchen
+534,52,Dishwasher,Philips,M373,1606,Living Room
+535,52,Induction Stove,Philips,M515,1670,Utility
+536,52,Laptop,Panasonic,M813,102,Kitchen
+537,52,Air Purifier,Samsung,M769,84,Living Room
+538,52,Water Purifier,Samsung,M515,44,Bathroom
+539,52,Washing Machine,Bosch,M587,457,Living Room
+540,52,Oven,Whirlpool,M184,2023,Bathroom
+541,52,Fridge,Philips,M679,400,Living Room
+542,53,Fan,LG,M283,89,Kitchen
+543,53,LED Light,LG,M312,14,Bedroom
+544,53,Light,Godrej,M178,39,Bedroom
+545,53,Mixer,Panasonic,M680,727,Bathroom
+546,53,Router,Bosch,M439,20,Bedroom
+547,53,Washing Machine,Samsung,M612,1163,Kitchen
+548,53,Water Pump,LG,M200,747,Bedroom
+549,53,BLDC Fan,Samsung,M448,44,Utility
+550,53,Air Purifier,Godrej,M892,50,Living Room
+551,53,Monitor,Havells,M902,48,Bathroom
+552,53,Induction Stove,Panasonic,M464,1766,Bathroom
+553,53,Geyser,Godrej,M290,2892,Utility
+554,53,Microwave,Godrej,M187,1433,Kitchen
+555,54,Iron Box,Philips,M469,859,Living Room
+556,54,BLDC Fan,LG,M415,39,Kitchen
+557,54,Water Pump,Havells,M204,435,Living Room
+558,54,Washing Machine,Whirlpool,M541,859,Utility
+559,54,Fridge,Bosch,M624,254,Living Room
+560,54,Computer,LG,M191,331,Utility
+561,54,Induction Stove,Samsung,M711,1812,Kitchen
+562,54,Mixer,Godrej,M112,449,Bathroom
+563,55,BLDC Fan,Havells,M604,29,Living Room
+564,55,Dishwasher,Whirlpool,M545,1482,Bathroom
+565,55,LED Light,Havells,M595,17,Living Room
+566,55,Mixer,Philips,M357,783,Bedroom
+567,55,Water Purifier,IFB,M708,59,Bedroom
+568,55,TV,IFB,M209,114,Kitchen
+569,55,Computer,LG,M505,320,Utility
+570,55,Air Purifier,Godrej,M923,85,Kitchen
+571,55,Fridge,IFB,M442,260,Utility
+572,55,Router,Whirlpool,M407,18,Utility
+573,55,Monitor,Panasonic,M590,40,Bedroom
+574,56,Microwave,Godrej,M473,916,Utility
+575,56,Geyser,Panasonic,M706,2617,Bedroom
+576,56,Air Purifier,Bosch,M127,90,Bathroom
+577,56,Router,Panasonic,M548,17,Living Room
+578,56,Mixer,Godrej,M789,555,Bedroom
+579,56,LED Light,Havells,M347,9,Bedroom
+580,56,Water Pump,Godrej,M908,686,Living Room
+581,56,Computer,IFB,M712,395,Utility
+582,56,Washing Machine,Godrej,M647,918,Bathroom
+583,56,Laptop,Bosch,M137,137,Utility
+584,56,Water Purifier,Samsung,M211,35,Kitchen
+585,57,Air Purifier,Samsung,M110,36,Kitchen
+586,57,Induction Stove,Panasonic,M622,1964,Utility
+587,57,Fan,Bosch,M694,79,Utility
+588,57,Mixer,Panasonic,M556,491,Bathroom
+589,57,Computer,IFB,M890,497,Utility
+590,57,Microwave,Bosch,M254,1153,Living Room
+591,57,Laptop,IFB,M207,120,Bathroom
+592,58,Cooler,Panasonic,M633,243,Kitchen
+593,58,Fridge,IFB,M199,262,Bathroom
+594,58,Oven,Philips,M168,1614,Living Room
+595,58,Geyser,Samsung,M123,2202,Living Room
+596,58,Microwave,Whirlpool,M858,1049,Utility
+597,58,Monitor,Whirlpool,M665,30,Kitchen
+598,59,Laptop,Godrej,M498,46,Bedroom
+599,59,Monitor,Panasonic,M385,68,Living Room
+600,59,LED Light,Samsung,M918,18,Utility
+601,59,Computer,Whirlpool,M474,316,Bedroom
+602,59,TV,IFB,M216,147,Bathroom
+603,59,Induction Stove,Bosch,M754,1520,Utility
+604,59,Water Pump,Godrej,M725,701,Utility
+605,59,Air Purifier,Samsung,M456,52,Bathroom
+606,59,AC,Whirlpool,M933,1809,Utility
+607,59,Oven,Samsung,M788,1274,Kitchen
+608,59,Geyser,Samsung,M344,2125,Living Room
+609,59,Cooler,Whirlpool,M482,297,Bedroom
+610,59,Vacuum Cleaner,Bosch,M497,1028,Utility
+611,60,Mixer,Bosch,M270,550,Kitchen
+612,60,Computer,Whirlpool,M291,311,Bathroom
+613,60,Laptop,LG,M986,136,Living Room
+614,60,TV,IFB,M239,129,Bathroom
+615,60,Router,Bosch,M617,23,Bathroom
+616,60,Dishwasher,IFB,M525,1927,Bathroom
+617,60,Air Purifier,IFB,M271,35,Utility
+618,61,LED Light,Havells,M272,17,Bathroom
+619,61,Geyser,IFB,M662,2546,Living Room
+620,61,Fan,Samsung,M374,84,Utility
+621,61,Washing Machine,Philips,M655,1174,Living Room
+622,61,Dishwasher,IFB,M659,1423,Bathroom
+623,62,Water Pump,Havells,M456,1182,Living Room
+624,62,Air Purifier,IFB,M986,37,Bedroom
+625,62,LED Light,Panasonic,M930,16,Utility
+626,62,Geyser,Philips,M981,2955,Utility
+627,62,Fan,Godrej,M269,74,Bedroom
+628,62,Monitor,Panasonic,M933,33,Living Room
+629,63,Oven,Whirlpool,M868,1842,Living Room
+630,63,Dishwasher,Havells,M987,1871,Bedroom
+631,63,Washing Machine,Whirlpool,M355,549,Kitchen
+632,63,Induction Stove,Panasonic,M879,2063,Bathroom
+633,63,Iron Box,IFB,M245,1341,Kitchen
+634,63,TV,Godrej,M484,195,Living Room
+635,63,Microwave,Samsung,M512,1327,Kitchen
+636,63,Geyser,Philips,M565,2499,Kitchen
+637,63,Water Purifier,LG,M989,25,Bathroom
+638,63,Router,Philips,M970,10,Utility
+639,63,Fridge,Godrej,M323,397,Bathroom
+640,63,Vacuum Cleaner,Panasonic,M606,874,Kitchen
+641,63,Air Purifier,Havells,M445,65,Utility
+642,63,Fan,Whirlpool,M679,89,Bathroom
+643,64,Vacuum Cleaner,LG,M538,807,Bedroom
+644,64,Fan,Havells,M262,90,Kitchen
+645,64,Iron Box,Samsung,M770,1119,Kitchen
+646,64,Cooler,Samsung,M480,290,Bedroom
+647,64,Monitor,LG,M505,60,Kitchen
+648,64,AC,Panasonic,M539,1386,Living Room
+649,64,Air Purifier,LG,M318,60,Living Room
+650,64,TV,Whirlpool,M707,137,Utility
+651,64,Induction Stove,IFB,M109,1208,Kitchen
+652,64,LED Light,Samsung,M980,11,Bedroom
+653,65,BLDC Fan,Whirlpool,M756,29,Living Room
+654,65,LED Light,Bosch,M676,5,Utility
+655,65,Computer,Whirlpool,M550,329,Bedroom
+656,65,Water Pump,Whirlpool,M521,930,Bathroom
+657,65,Cooler,Panasonic,M188,145,Bedroom
+658,65,Induction Stove,Samsung,M703,1947,Bathroom
+659,65,Microwave,Philips,M539,1122,Bedroom
+660,65,Oven,Panasonic,M383,2320,Living Room
+661,65,Geyser,Panasonic,M666,2730,Utility
+662,65,Air Purifier,Havells,M897,90,Living Room
+663,65,Light,Havells,M310,53,Utility
+664,65,Vacuum Cleaner,Bosch,M293,1365,Bathroom
+665,66,Air Purifier,Bosch,M112,53,Kitchen
+666,66,Fan,Whirlpool,M496,90,Utility
+667,66,LED Light,Godrej,M474,13,Bedroom
+668,66,Router,IFB,M888,10,Living Room
+669,66,Computer,Samsung,M114,284,Bedroom
+670,66,Cooler,LG,M161,221,Utility
+671,66,Vacuum Cleaner,Havells,M743,1329,Utility
+672,66,Water Pump,Godrej,M533,1018,Bathroom
+673,66,BLDC Fan,Samsung,M755,42,Utility
+674,67,Fridge,Samsung,M417,328,Bathroom
+675,67,Washing Machine,Panasonic,M159,650,Living Room
+676,67,BLDC Fan,Godrej,M218,39,Utility
+677,67,Geyser,LG,M416,2864,Bedroom
+678,67,Vacuum Cleaner,Samsung,M112,1324,Bedroom
+679,67,Water Purifier,LG,M267,51,Kitchen
+680,67,Light,Bosch,M629,36,Bedroom
+681,67,Water Pump,Philips,M229,1067,Kitchen
+682,67,Microwave,Samsung,M889,830,Kitchen
+683,67,Dishwasher,Godrej,M378,1736,Living Room
+684,67,Air Purifier,Havells,M829,66,Living Room
+685,67,Router,IFB,M566,24,Kitchen
+686,67,Computer,LG,M611,440,Bedroom
+687,67,Oven,Philips,M261,1522,Living Room
+688,68,Vacuum Cleaner,LG,M666,1331,Bathroom
+689,68,Cooler,Panasonic,M429,183,Bathroom
+690,68,LED Light,Philips,M377,18,Living Room
+691,68,Water Purifier,Philips,M222,52,Living Room
+692,68,AC,Whirlpool,M328,2256,Living Room
+693,68,Fan,Godrej,M170,64,Kitchen
+694,68,Induction Stove,Havells,M435,1288,Utility
+695,68,Water Pump,IFB,M108,677,Bedroom
+696,68,Mixer,Havells,M677,701,Kitchen
+697,68,Air Purifier,Panasonic,M575,53,Utility
+698,68,TV,IFB,M891,130,Utility
+699,68,Light,Panasonic,M254,20,Bathroom
+700,68,BLDC Fan,LG,M338,42,Kitchen
+701,68,Oven,LG,M443,1002,Bathroom
+702,69,Cooler,Samsung,M144,179,Utility
+703,69,Light,Godrej,M817,43,Bathroom
+704,69,Water Purifier,Samsung,M694,26,Utility
+705,69,LED Light,Whirlpool,M752,18,Bathroom
+706,69,Laptop,Samsung,M706,60,Bathroom
+707,69,Router,Whirlpool,M342,17,Kitchen
+708,69,Fan,Philips,M920,60,Kitchen
+709,69,Fridge,Philips,M563,219,Bedroom
+710,69,Washing Machine,Samsung,M307,539,Utility
+711,70,Fridge,Godrej,M223,287,Kitchen
+712,70,Cooler,Panasonic,M562,198,Bathroom
+713,70,TV,Havells,M972,110,Living Room
+714,70,Monitor,Whirlpool,M926,63,Kitchen
+715,70,Air Purifier,LG,M320,83,Kitchen
+716,70,Microwave,Whirlpool,M193,1054,Kitchen
+717,71,Water Purifier,Bosch,M355,26,Bathroom
+718,71,Fan,Samsung,M923,85,Bedroom
+719,71,Vacuum Cleaner,Samsung,M112,663,Bedroom
+720,71,Geyser,Whirlpool,M302,2320,Kitchen
+721,71,Washing Machine,Samsung,M696,1000,Kitchen
+722,71,TV,Samsung,M122,96,Bedroom
+723,71,AC,IFB,M928,1463,Living Room
+724,71,Computer,Philips,M225,171,Bathroom
+725,71,Monitor,LG,M272,79,Utility
+726,71,Induction Stove,Godrej,M941,1941,Bathroom
+727,71,Oven,IFB,M130,1783,Bathroom
+728,72,Oven,LG,M728,2268,Utility
+729,72,Light,Panasonic,M762,38,Bathroom
+730,72,TV,Godrej,M663,202,Living Room
+731,72,Washing Machine,Samsung,M386,792,Bedroom
+732,72,Air Purifier,Godrej,M304,71,Utility
+733,72,Monitor,Panasonic,M745,71,Utility
+734,72,Fridge,LG,M491,350,Kitchen
+735,73,Dishwasher,Panasonic,M130,1997,Kitchen
+736,73,Router,LG,M928,23,Utility
+737,73,Oven,Philips,M885,2196,Bedroom
+738,73,Mixer,Whirlpool,M202,426,Bedroom
+739,73,Water Purifier,Havells,M646,23,Bedroom
+740,73,Microwave,Godrej,M463,977,Bedroom
+741,73,Computer,Panasonic,M706,312,Kitchen
+742,73,Washing Machine,LG,M820,1117,Kitchen
+743,73,TV,Whirlpool,M676,128,Bathroom
+744,73,AC,Bosch,M416,1559,Bathroom
+745,73,Iron Box,LG,M192,807,Bedroom
+746,73,Geyser,Panasonic,M120,2578,Bathroom
+747,74,Microwave,Whirlpool,M921,1131,Living Room
+748,74,Induction Stove,LG,M251,1800,Bedroom
+749,74,Light,Samsung,M966,53,Kitchen
+750,74,Fridge,Samsung,M482,330,Bathroom
+751,74,Iron Box,Samsung,M444,1059,Kitchen
+752,75,TV,Philips,M328,250,Utility
+753,75,Laptop,Whirlpool,M487,123,Kitchen
+754,75,Air Purifier,Whirlpool,M281,76,Living Room
+755,75,Router,Godrej,M971,9,Bedroom
+756,75,Microwave,Philips,M928,1426,Bedroom
+757,75,Water Pump,Samsung,M608,444,Kitchen
+758,75,Dishwasher,Samsung,M343,1555,Kitchen
+759,76,Air Purifier,Havells,M314,45,Living Room
+760,76,BLDC Fan,Philips,M362,28,Living Room
+761,76,Vacuum Cleaner,LG,M495,1048,Bathroom
+762,76,Water Pump,Whirlpool,M523,804,Bathroom
+763,76,Microwave,Philips,M659,1184,Living Room
+764,76,Monitor,IFB,M907,75,Utility
+765,76,AC,Panasonic,M266,2124,Living Room
+766,77,Geyser,Samsung,M450,1848,Bathroom
+767,77,AC,Whirlpool,M849,1353,Utility
+768,77,Microwave,Samsung,M446,1408,Utility
+769,77,Washing Machine,IFB,M821,431,Bathroom
+770,77,Cooler,Whirlpool,M721,231,Bedroom
+771,78,Cooler,Bosch,M839,258,Kitchen
+772,78,Microwave,Havells,M404,1043,Living Room
+773,78,Light,LG,M502,56,Utility
+774,78,Laptop,IFB,M257,58,Kitchen
+775,78,Iron Box,LG,M537,839,Kitchen
+776,79,Air Purifier,IFB,M776,46,Living Room
+777,79,Induction Stove,Bosch,M496,1389,Kitchen
+778,79,Router,Godrej,M478,13,Bathroom
+779,79,Light,LG,M369,48,Bathroom
+780,79,Cooler,Havells,M331,188,Utility
+781,79,AC,LG,M254,1398,Living Room
+782,79,Water Pump,Philips,M927,854,Bathroom
+783,79,TV,Panasonic,M666,95,Bathroom
+784,79,Geyser,Bosch,M528,2596,Bathroom
+785,79,Fan,Panasonic,M587,54,Living Room
+786,79,LED Light,Godrej,M974,16,Living Room
+787,79,Monitor,Bosch,M684,77,Utility
+788,79,Fridge,Whirlpool,M223,393,Bathroom
+789,79,Dishwasher,Whirlpool,M271,1416,Bedroom
+790,79,Laptop,Whirlpool,M143,153,Living Room
+791,80,Laptop,Bosch,M569,48,Utility
+792,80,Light,Bosch,M900,46,Living Room
+793,80,Air Purifier,Godrej,M253,39,Utility
+794,80,Fridge,Samsung,M208,294,Living Room
+795,80,Induction Stove,Havells,M988,1748,Kitchen
+796,80,Washing Machine,Godrej,M370,792,Bathroom
+797,80,Microwave,IFB,M138,976,Kitchen
+798,80,BLDC Fan,Godrej,M247,44,Utility
+799,80,Water Purifier,Godrej,M139,45,Kitchen
+800,80,Iron Box,Panasonic,M150,1236,Kitchen
+801,80,Mixer,Philips,M120,472,Kitchen
+802,80,Monitor,Havells,M387,73,Bathroom
+803,80,Water Pump,Samsung,M989,533,Bedroom
+804,80,TV,Havells,M861,193,Kitchen
+805,80,Vacuum Cleaner,Havells,M846,1026,Utility
+806,81,BLDC Fan,Godrej,M238,41,Utility
+807,81,Light,LG,M277,32,Bedroom
+808,81,Monitor,LG,M355,22,Bathroom
+809,81,Iron Box,LG,M469,1471,Bedroom
+810,81,Laptop,Havells,M477,163,Utility
+811,81,Router,Godrej,M750,11,Living Room
+812,81,Water Purifier,Panasonic,M481,51,Utility
+813,81,Oven,IFB,M281,1971,Utility
+814,81,Fan,Bosch,M458,57,Bedroom
+815,81,Washing Machine,Havells,M866,1105,Living Room
+816,81,Computer,Havells,M128,347,Living Room
+817,81,Water Pump,Whirlpool,M974,885,Bedroom
+818,81,Mixer,Panasonic,M762,415,Bedroom
+819,81,Fridge,Havells,M767,254,Utility
+820,81,Vacuum Cleaner,LG,M985,1399,Living Room
+821,82,Fridge,IFB,M358,205,Bathroom
+822,82,Air Purifier,Havells,M793,63,Utility
+823,82,TV,Godrej,M698,106,Living Room
+824,82,Induction Stove,Bosch,M778,2189,Kitchen
+825,82,AC,Bosch,M762,2416,Utility
+826,82,LED Light,Havells,M405,15,Living Room
+827,82,Washing Machine,IFB,M165,744,Kitchen
+828,82,Geyser,Philips,M982,2067,Kitchen
+829,82,Dishwasher,Havells,M292,1353,Utility
+830,82,Light,Panasonic,M158,58,Bathroom
+831,82,Monitor,Philips,M797,28,Living Room
+832,82,Vacuum Cleaner,IFB,M402,865,Bathroom
+833,83,Computer,Whirlpool,M960,486,Utility
+834,83,Fan,Whirlpool,M400,41,Bathroom
+835,83,Mixer,Whirlpool,M858,432,Utility
+836,83,Vacuum Cleaner,Whirlpool,M796,943,Living Room
+837,83,Light,Panasonic,M463,34,Kitchen
+838,83,Microwave,Godrej,M907,1139,Kitchen
+839,83,LED Light,Havells,M699,9,Bathroom
+840,83,Router,Samsung,M581,9,Utility
+841,83,Oven,Samsung,M583,1398,Utility
+842,83,Washing Machine,Samsung,M988,1097,Bathroom
+843,83,Fridge,Bosch,M405,255,Living Room
+844,84,Fridge,Philips,M983,333,Bedroom
+845,84,Light,Samsung,M599,41,Bedroom
+846,84,Microwave,Philips,M749,859,Living Room
+847,84,Laptop,IFB,M380,98,Bedroom
+848,84,Mixer,Whirlpool,M601,702,Living Room
+849,84,Monitor,Whirlpool,M729,47,Bathroom
+850,84,Water Pump,Godrej,M539,788,Bathroom
+851,85,Fan,LG,M429,83,Utility
+852,85,Dishwasher,Panasonic,M118,1892,Living Room
+853,85,Light,Panasonic,M331,42,Kitchen
+854,85,Water Pump,Whirlpool,M205,692,Utility
+855,85,Oven,Havells,M271,1133,Living Room
+856,86,Geyser,IFB,M467,1885,Bedroom
+857,86,Monitor,Godrej,M119,34,Bedroom
+858,86,Water Purifier,Whirlpool,M316,21,Utility
+859,86,Induction Stove,Bosch,M273,1326,Kitchen
+860,86,Vacuum Cleaner,LG,M484,1255,Kitchen
+861,86,Microwave,Bosch,M738,849,Utility
+862,86,Laptop,LG,M777,72,Living Room
+863,86,Fridge,LG,M806,179,Bathroom
+864,86,Mixer,IFB,M489,363,Utility
+865,87,Router,Whirlpool,M528,11,Utility
+866,87,Iron Box,Samsung,M389,866,Living Room
+867,87,Fridge,IFB,M303,305,Bedroom
+868,87,Light,Havells,M951,53,Bedroom
+869,87,AC,Philips,M820,2039,Kitchen
+870,87,Geyser,Whirlpool,M140,2622,Bathroom
+871,87,Laptop,Panasonic,M804,168,Kitchen
+872,87,Cooler,Panasonic,M102,123,Living Room
+873,87,Washing Machine,Samsung,M955,987,Bathroom
+874,88,BLDC Fan,Havells,M370,39,Living Room
+875,88,Water Purifier,Samsung,M932,31,Living Room
+876,88,Water Pump,Havells,M468,1120,Kitchen
+877,88,Cooler,Godrej,M856,149,Living Room
+878,88,Washing Machine,LG,M109,541,Bedroom
+879,88,LED Light,Philips,M466,12,Utility
+880,88,Monitor,Havells,M999,66,Living Room
+881,89,Microwave,Godrej,M764,970,Living Room
+882,89,TV,Whirlpool,M812,95,Bedroom
+883,89,Cooler,Samsung,M526,271,Bathroom
+884,89,Computer,IFB,M285,462,Bathroom
+885,89,Air Purifier,Philips,M726,31,Bedroom
+886,89,Monitor,IFB,M599,27,Bathroom
+887,89,Washing Machine,IFB,M147,464,Kitchen
+888,89,Induction Stove,Philips,M112,1921,Utility
+889,89,Router,Panasonic,M785,18,Utility
+890,89,Water Purifier,Bosch,M804,59,Living Room
+891,90,Vacuum Cleaner,Bosch,M969,1080,Bathroom
+892,90,LED Light,Whirlpool,M176,17,Bathroom
+893,90,Router,Philips,M346,18,Kitchen
+894,90,Oven,LG,M619,1456,Utility
+895,90,Computer,Godrej,M512,270,Living Room
+896,90,Fridge,IFB,M554,355,Utility
+897,90,Dishwasher,IFB,M190,1710,Bathroom
+898,90,Fan,Philips,M221,66,Living Room
+899,90,AC,Samsung,M513,2044,Living Room
+900,90,Microwave,Bosch,M662,800,Living Room
+901,90,BLDC Fan,Havells,M620,42,Bedroom
+902,91,Vacuum Cleaner,Samsung,M877,1274,Bedroom
+903,91,Monitor,LG,M449,42,Kitchen
+904,91,Microwave,Bosch,M634,1182,Living Room
+905,91,Oven,LG,M268,2008,Bedroom
+906,91,Fan,Godrej,M209,51,Utility
+907,91,LED Light,Panasonic,M292,6,Bathroom
+908,91,Iron Box,Panasonic,M568,945,Kitchen
+909,91,Water Pump,Samsung,M875,724,Living Room
+910,91,Router,Samsung,M890,22,Bathroom
+911,91,Air Purifier,Bosch,M237,61,Living Room
+912,91,Water Purifier,Bosch,M853,23,Utility
+913,91,TV,Godrej,M958,229,Bathroom
+914,91,Dishwasher,Bosch,M899,1381,Utility
+915,91,Mixer,Whirlpool,M848,717,Bedroom
+916,91,Induction Stove,Samsung,M496,1873,Utility
+917,92,Microwave,Godrej,M716,1324,Kitchen
+918,92,Water Purifier,Bosch,M981,40,Utility
+919,92,Computer,Panasonic,M305,257,Utility
+920,92,Laptop,Havells,M803,133,Bedroom
+921,92,Induction Stove,Whirlpool,M615,1755,Kitchen
+922,92,LED Light,Samsung,M879,10,Utility
+923,92,Washing Machine,IFB,M696,984,Bathroom
+924,92,Vacuum Cleaner,Bosch,M392,1032,Living Room
+925,92,Water Pump,Bosch,M209,325,Bathroom
+926,92,Fridge,Whirlpool,M154,321,Living Room
+927,92,Mixer,Panasonic,M373,684,Bedroom
+928,92,Iron Box,Havells,M799,1006,Bedroom
+929,92,BLDC Fan,LG,M807,34,Bedroom
+930,92,Oven,Bosch,M133,1734,Bathroom
+931,93,Induction Stove,Panasonic,M623,2003,Kitchen
+932,93,Vacuum Cleaner,LG,M490,996,Bathroom
+933,93,Dishwasher,Philips,M665,1255,Living Room
+934,93,LED Light,Havells,M307,14,Bathroom
+935,93,Iron Box,Panasonic,M748,1471,Kitchen
+936,93,Computer,Bosch,M856,458,Bedroom
+937,94,Geyser,Godrej,M141,2377,Kitchen
+938,94,Monitor,Bosch,M370,28,Bedroom
+939,94,TV,Havells,M105,164,Bathroom
+940,94,BLDC Fan,Whirlpool,M140,29,Kitchen
+941,94,Vacuum Cleaner,LG,M892,1240,Utility
+942,94,Induction Stove,Havells,M602,2008,Utility
+943,94,Water Purifier,Bosch,M466,24,Kitchen
+944,94,Cooler,Bosch,M325,167,Utility
+945,95,Water Purifier,Samsung,M457,34,Bedroom
+946,95,TV,Philips,M439,172,Kitchen
+947,95,Laptop,Panasonic,M870,180,Bathroom
+948,95,Dishwasher,Bosch,M943,1970,Living Room
+949,95,Air Purifier,Samsung,M784,52,Bathroom
+950,95,Computer,Panasonic,M757,464,Utility
+951,96,Fan,LG,M629,87,Kitchen
+952,96,Vacuum Cleaner,Bosch,M922,1120,Bathroom
+953,96,Microwave,IFB,M144,1103,Bedroom
+954,96,Computer,Philips,M626,192,Living Room
+955,96,Cooler,Whirlpool,M891,257,Utility
+956,96,Air Purifier,LG,M741,34,Bedroom
+957,96,Washing Machine,Panasonic,M985,1101,Bathroom
+958,96,Geyser,Samsung,M310,2601,Bathroom
+959,97,BLDC Fan,Panasonic,M364,38,Bathroom
+960,97,Vacuum Cleaner,IFB,M745,1014,Bathroom
+961,97,Fridge,Philips,M117,249,Living Room
+962,97,AC,Bosch,M106,2466,Living Room
+963,97,Monitor,LG,M817,74,Living Room
+964,97,Microwave,Philips,M614,908,Kitchen
+965,97,Fan,Havells,M721,40,Kitchen
+966,97,Water Pump,IFB,M490,704,Living Room
+967,97,Water Purifier,IFB,M260,54,Bedroom
+968,97,Air Purifier,Whirlpool,M864,55,Utility
+969,97,Router,Havells,M749,12,Kitchen
+970,97,Computer,Philips,M111,433,Utility
+971,97,Iron Box,Whirlpool,M226,792,Living Room
+972,97,Washing Machine,Godrej,M650,960,Living Room
+973,97,Dishwasher,Havells,M315,1966,Kitchen
+974,98,Laptop,Panasonic,M217,91,Utility
+975,98,Air Purifier,LG,M971,78,Utility
+976,98,Water Purifier,IFB,M760,55,Living Room
+977,98,Fridge,Havells,M787,167,Kitchen
+978,98,TV,Samsung,M302,228,Bathroom
+979,98,Induction Stove,Philips,M465,1331,Bedroom
+980,98,LED Light,Samsung,M391,14,Living Room
+981,98,Washing Machine,Panasonic,M425,897,Bathroom
+982,99,Induction Stove,LG,M420,1452,Bedroom
+983,99,Vacuum Cleaner,Godrej,M383,968,Bedroom
+984,99,Geyser,Philips,M998,2482,Bathroom
+985,99,Mixer,IFB,M467,696,Kitchen
+986,99,Fridge,IFB,M664,177,Bedroom
+987,99,Air Purifier,Samsung,M961,47,Bedroom
+988,99,Oven,Bosch,M301,1539,Living Room
+989,99,Microwave,Samsung,M119,1319,Living Room
+990,99,Laptop,Godrej,M887,99,Living Room
+991,99,BLDC Fan,Bosch,M366,42,Utility
+992,100,Air Purifier,Godrej,M472,62,Living Room
+993,100,Fridge,Panasonic,M968,396,Utility
+994,100,Oven,Whirlpool,M875,2052,Bedroom
+995,100,Computer,IFB,M263,241,Utility
+996,100,LED Light,Whirlpool,M853,16,Bathroom
+997,100,Mixer,Philips,M141,412,Bathroom
+998,100,Geyser,Panasonic,M164,2041,Kitchen
+999,100,Iron Box,Panasonic,M143,1434,Bedroom
+1000,100,Monitor,Bosch,M910,43,Bathroom
+1001,100,Washing Machine,IFB,M565,447,Living Room
+1002,100,Router,Philips,M205,24,Kitchen
+1003,100,Fan,Havells,M692,69,Utility
